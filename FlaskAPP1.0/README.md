@@ -36,7 +36,7 @@ This Task Management API is a RESTful API I developed using Flask, it was a guid
 3. Add a New Task (POST):
    Endpoint:
    ```bash
-   POST /tasks
+  POST /tasks
 
    Body:
    {
