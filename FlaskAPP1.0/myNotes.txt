@@ -1,0 +1,15 @@
+I am doing this actvity to get familar with the Flask framework and creating APIs with it.
+I followed a series of online tutorials to complete this.
+
+Flask is a micro web framework in Python. 
+It allows you to create web applications with minimal overhead.
+
+@app.route('/') = route decorator that tells Flask which URL should trigger the function directly below it. 
+In this case, the root URL (/) triggers the home function.
+A route decorator in Python is a function that wraps another function usually a view function in a web app likr Flask or FastAPI.
+The decorator function takes the original function as an argument and returns a new function that “wraps” the original.
+
+CRUD (Create, Read, Update, Delete)
+
+jsonify(line 7) This function converts the tasks list to a JSON format, which is commonly used in APIs for data interchange.
+
