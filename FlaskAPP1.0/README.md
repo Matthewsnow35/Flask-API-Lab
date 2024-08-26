@@ -39,7 +39,6 @@ This Task Management API is a RESTful API I developed using Flask, it was a guid
    POST /tasks
 
    Body:
-   ```bash
    {
   "title": "Task Title",
   "description": "Task Description"
@@ -54,7 +53,6 @@ This Task Management API is a RESTful API I developed using Flask, it was a guid
    PATCH /tasks/<task_id>
    
    Body:
-   ```bash
    {
   "title": "Updated Task Title",
   "description": "Updated Task Description",
